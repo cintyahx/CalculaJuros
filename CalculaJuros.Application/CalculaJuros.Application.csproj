@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculaJuros.DI\CalculaJuros.DI.csproj" />
+    <ProjectReference Include="..\CalculaJuros.Service\CalculaJuros.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
